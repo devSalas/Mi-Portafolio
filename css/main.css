@@ -769,7 +769,9 @@ html .dark-Mode:hover{
   .main-video{
     margin-top: 100px;
   }
-
+  .intro{
+    margin-top:300px;
+  }
   .grid .item{
     height: 200px;
   }
