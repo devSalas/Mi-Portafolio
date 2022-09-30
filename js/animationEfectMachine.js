@@ -6,7 +6,7 @@ const effectMachine=()=>{
     tag:$infoDev,
     withd:undefined,
     named:"typing",
-    duration:2,
+    duration:1,
     timingFunction:21,
     delay:0,
   };
@@ -16,7 +16,7 @@ const effectMachine=()=>{
     named:"typing",
     duration:1,
     timingFunction:0,
-    delay:2,
+    delay:1,
   };
 
   const ApplyAnimation=({tag,withd,named,duration,delay})=>{

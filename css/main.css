@@ -592,13 +592,10 @@ h3{
 }
 
 html .dark-Mode{
-  /* background-color: #121212; */
+  background-color: #121212;
   color:#ffff;
 }
-html .dark-Mode:hover{
-  background-color: var(--primary-color);
-  color: var(--highlight-color);
-}
+
 .menu .dark-Mode{
   background-color: transparent;
 }
