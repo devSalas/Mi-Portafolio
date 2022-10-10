@@ -6,13 +6,14 @@ export default function ChangeBackground(){
   const $moon=d.querySelector(".moon")
   const $dataDark=d.querySelectorAll('[data-dark]')
   const $header = d.querySelector(".menu")
+  
 
 const darkMode = ()=> {
   $moon.classList.add('icon-none')
   $sun.classList.remove('icon-none')
   $dataDark.forEach((el)=>el.classList.add("dark-Mode"))
   ls.setItem("theme","dark")
-
+  
 }
                   
 const lightMode = ()=> {

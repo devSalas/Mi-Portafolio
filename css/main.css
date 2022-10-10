@@ -37,11 +37,12 @@ a{
   padding: 10px;
   transition: color 0.2s ease-in-out;
   font-family: 'Manrope', sans-serif;
+  cursor: pointer;
 }
 
-a:hover{
+/* a:hover{
   color:var(--highlight-color) ;
-}
+} */
 h1{
   font-size:2.5rem;
   font-weight: bold;
@@ -71,7 +72,8 @@ h3{
   text-align: center;
   display: flex;
   justify-content: space-between;
-  position: sticky;
+  width: 100%;
+  position: fixed;
   z-index: 400;
   top: 0px;
   padding-top: 10px;
@@ -119,6 +121,7 @@ h3{
 
 .menu-mobile{
   display: none;
+  background-color: #ffff;
 
 }
 .menu-open-close{
@@ -234,9 +237,8 @@ h3{
 .main-video{
   overflow: hidden;
   width: 100%;
-  height: 100vh;
   margin-bottom: 150px;
-  position:absolute;
+  position:relative;
   top: 0;
 
 }
@@ -317,7 +319,6 @@ h3{
 .intro{
   text-align: center;
   margin: 0 auto;
-  margin-top: 650px;
   padding-bottom: 100px;
 }
 
@@ -410,6 +411,7 @@ h3{
   justify-content:center;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 .skill_know-img{
   width:100px;
@@ -420,6 +422,7 @@ h3{
   justify-content:center;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 .skill_unknow-img{
   width:100px;
@@ -586,14 +589,15 @@ h3{
   justify-content: center;
   border-radius: 50%;
   font-size: 32px;
+  cursor: pointer;
 }
 .icon-none{
   display: none;
 }
 
 html .dark-Mode{
-  background-color: #121212;
-  color:#ffff;
+  background-color: #121212 ;
+  color:#ffff ;
 }
 
 .menu .dark-Mode{
@@ -754,6 +758,7 @@ html .dark-Mode{
   .menu-mobile{
     display: block;
   }
+
   .info-dev{
     font-size: 15px;
   }
@@ -766,9 +771,9 @@ html .dark-Mode{
   .main-video{
     margin-top: 100px;
   }
-  .intro{
+/*   .intro{
     margin-top:300px;
-  }
+  } */
   .grid .item{
     height: 200px;
   }
